@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cielo Pomodoro</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- icons - PASTIKAN INI ADA -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Cielo Pomodoro</h1>
+            
+            <!-- Tab Work/Break -->
+            <div class="painel">
+                <p id="work" class="active">work</p>
+                <p id="break">break</p>
+            </div>
+
+            <!-- Timer -->
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <span id="minutes">25</span>
+                        <span>:</span>
+                        <span id="seconds">00</span>
+                    </div>
+                </div>
+
+                <!-- Controls - PERBAIKI DISINI -->
+                <div class="controls">
+                    <!-- Button Start -->
+                    <button id="start">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    
+                    <!-- Button Reset -->
+                    <button id="reset">
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
